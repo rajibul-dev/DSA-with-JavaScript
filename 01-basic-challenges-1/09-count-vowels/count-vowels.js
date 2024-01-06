@@ -6,7 +6,7 @@ function countVowels(string) {
 
   lowercaseStr.split("").forEach((char) => {
     vowels.forEach((vowel) => {
-      char.includes(vowel) ? result++ : result;
+      char.includes(vowel) ? result++ : null;
     });
   });
 
